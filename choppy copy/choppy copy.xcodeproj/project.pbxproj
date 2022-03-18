@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD96A5D227E527C90016F121 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96A5D127E527C90016F121 /* Tests_iOS.swift */; };
+		CD96A5D427E527C90016F121 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96A5D327E527C90016F121 /* Tests_iOSLaunchTests.swift */; };
+		CD96A5DE27E527C90016F121 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96A5DD27E527C90016F121 /* Tests_macOS.swift */; };
+		CD96A5E027E527C90016F121 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96A5DF27E527C90016F121 /* Tests_macOSLaunchTests.swift */; };
+		CD96A5E127E527C90016F121 /* choppy_copyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96A5B927E527C60016F121 /* choppy_copyApp.swift */; };
+		CD96A5E227E527C90016F121 /* choppy_copyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96A5B927E527C60016F121 /* choppy_copyApp.swift */; };
+		CD96A5E327E527C90016F121 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96A5BA27E527C60016F121 /* ContentView.swift */; };
+		CD96A5E427E527C90016F121 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96A5BA27E527C60016F121 /* ContentView.swift */; };
+		CD96A5E527E527C90016F121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD96A5BB27E527C90016F121 /* Assets.xcassets */; };
+		CD96A5E627E527C90016F121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD96A5BB27E527C90016F121 /* Assets.xcassets */; };
+		CD96A5F627E527FA0016F121 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96A5F527E527FA0016F121 /* ButtonView.swift */; };
+		CD96A5F727E527FA0016F121 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD96A5F527E527FA0016F121 /* ButtonView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD96A5CE27E527C90016F121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD96A5B427E527C60016F121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD96A5BF27E527C90016F121;
+			remoteInfo = "choppy copy (iOS)";
+		};
+		CD96A5DA27E527C90016F121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD96A5B427E527C60016F121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD96A5C527E527C90016F121;
+			remoteInfo = "choppy copy (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD96A5B927E527C60016F121 /* choppy_copyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choppy_copyApp.swift; sourceTree = "<group>"; };
+		CD96A5BA27E527C60016F121 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD96A5BB27E527C90016F121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD96A5C027E527C90016F121 /* choppy copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "choppy copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD96A5C627E527C90016F121 /* choppy copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "choppy copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD96A5C827E527C90016F121 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		CD96A5CD27E527C90016F121 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD96A5D127E527C90016F121 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		CD96A5D327E527C90016F121 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		CD96A5D927E527C90016F121 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD96A5DD27E527C90016F121 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		CD96A5DF27E527C90016F121 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		CD96A5F527E527FA0016F121 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD96A5BD27E527C90016F121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD96A5C327E527C90016F121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD96A5CA27E527C90016F121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD96A5D627E527C90016F121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD96A5B327E527C60016F121 = {
+			isa = PBXGroup;
+			children = (
+				CD96A5B827E527C60016F121 /* Shared */,
+				CD96A5C727E527C90016F121 /* macOS */,
+				CD96A5D027E527C90016F121 /* Tests iOS */,
+				CD96A5DC27E527C90016F121 /* Tests macOS */,
+				CD96A5C127E527C90016F121 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD96A5B827E527C60016F121 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CD96A5B927E527C60016F121 /* choppy_copyApp.swift */,
+				CD96A5BA27E527C60016F121 /* ContentView.swift */,
+				CD96A5F527E527FA0016F121 /* ButtonView.swift */,
+				CD96A5BB27E527C90016F121 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CD96A5C127E527C90016F121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD96A5C027E527C90016F121 /* choppy copy.app */,
+				CD96A5C627E527C90016F121 /* choppy copy.app */,
+				CD96A5CD27E527C90016F121 /* Tests iOS.xctest */,
+				CD96A5D927E527C90016F121 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD96A5C727E527C90016F121 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				CD96A5C827E527C90016F121 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		CD96A5D027E527C90016F121 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CD96A5D127E527C90016F121 /* Tests_iOS.swift */,
+				CD96A5D327E527C90016F121 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		CD96A5DC27E527C90016F121 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				CD96A5DD27E527C90016F121 /* Tests_macOS.swift */,
+				CD96A5DF27E527C90016F121 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD96A5BF27E527C90016F121 /* choppy copy (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD96A5E927E527C90016F121 /* Build configuration list for PBXNativeTarget "choppy copy (iOS)" */;
+			buildPhases = (
+				CD96A5BC27E527C90016F121 /* Sources */,
+				CD96A5BD27E527C90016F121 /* Frameworks */,
+				CD96A5BE27E527C90016F121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "choppy copy (iOS)";
+			productName = "choppy copy (iOS)";
+			productReference = CD96A5C027E527C90016F121 /* choppy copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD96A5C527E527C90016F121 /* choppy copy (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD96A5EC27E527C90016F121 /* Build configuration list for PBXNativeTarget "choppy copy (macOS)" */;
+			buildPhases = (
+				CD96A5C227E527C90016F121 /* Sources */,
+				CD96A5C327E527C90016F121 /* Frameworks */,
+				CD96A5C427E527C90016F121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "choppy copy (macOS)";
+			productName = "choppy copy (macOS)";
+			productReference = CD96A5C627E527C90016F121 /* choppy copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD96A5CC27E527C90016F121 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD96A5EF27E527C90016F121 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				CD96A5C927E527C90016F121 /* Sources */,
+				CD96A5CA27E527C90016F121 /* Frameworks */,
+				CD96A5CB27E527C90016F121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD96A5CF27E527C90016F121 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = CD96A5CD27E527C90016F121 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CD96A5D827E527C90016F121 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD96A5F227E527C90016F121 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				CD96A5D527E527C90016F121 /* Sources */,
+				CD96A5D627E527C90016F121 /* Frameworks */,
+				CD96A5D727E527C90016F121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD96A5DB27E527C90016F121 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = CD96A5D927E527C90016F121 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD96A5B427E527C60016F121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					CD96A5BF27E527C90016F121 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					CD96A5C527E527C90016F121 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					CD96A5CC27E527C90016F121 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = CD96A5BF27E527C90016F121;
+					};
+					CD96A5D827E527C90016F121 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = CD96A5C527E527C90016F121;
+					};
+				};
+			};
+			buildConfigurationList = CD96A5B727E527C60016F121 /* Build configuration list for PBXProject "choppy copy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD96A5B327E527C60016F121;
+			productRefGroup = CD96A5C127E527C90016F121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD96A5BF27E527C90016F121 /* choppy copy (iOS) */,
+				CD96A5C527E527C90016F121 /* choppy copy (macOS) */,
+				CD96A5CC27E527C90016F121 /* Tests iOS */,
+				CD96A5D827E527C90016F121 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD96A5BE27E527C90016F121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD96A5E527E527C90016F121 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD96A5C427E527C90016F121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD96A5E627E527C90016F121 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD96A5CB27E527C90016F121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD96A5D727E527C90016F121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD96A5BC27E527C90016F121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD96A5E327E527C90016F121 /* ContentView.swift in Sources */,
+				CD96A5E127E527C90016F121 /* choppy_copyApp.swift in Sources */,
+				CD96A5F627E527FA0016F121 /* ButtonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD96A5C227E527C90016F121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD96A5E427E527C90016F121 /* ContentView.swift in Sources */,
+				CD96A5E227E527C90016F121 /* choppy_copyApp.swift in Sources */,
+				CD96A5F727E527FA0016F121 /* ButtonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD96A5C927E527C90016F121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD96A5D427E527C90016F121 /* Tests_iOSLaunchTests.swift in Sources */,
+				CD96A5D227E527C90016F121 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD96A5D527E527C90016F121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD96A5E027E527C90016F121 /* Tests_macOSLaunchTests.swift in Sources */,
+				CD96A5DE27E527C90016F121 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD96A5CF27E527C90016F121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD96A5BF27E527C90016F121 /* choppy copy (iOS) */;
+			targetProxy = CD96A5CE27E527C90016F121 /* PBXContainerItemProxy */;
+		};
+		CD96A5DB27E527C90016F121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD96A5C527E527C90016F121 /* choppy copy (macOS) */;
+			targetProxy = CD96A5DA27E527C90016F121 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD96A5E727E527C90016F121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD96A5E827E527C90016F121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CD96A5EA27E527C90016F121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "m2ouns.choppy-copy";
+				PRODUCT_NAME = "choppy copy";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD96A5EB27E527C90016F121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "m2ouns.choppy-copy";
+				PRODUCT_NAME = "choppy copy";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD96A5ED27E527C90016F121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "m2ouns.choppy-copy";
+				PRODUCT_NAME = "choppy copy";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CD96A5EE27E527C90016F121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "m2ouns.choppy-copy";
+				PRODUCT_NAME = "choppy copy";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CD96A5F027E527C90016F121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "m2ouns.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "choppy copy (iOS)";
+			};
+			name = Debug;
+		};
+		CD96A5F127E527C90016F121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "m2ouns.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "choppy copy (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD96A5F327E527C90016F121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "m2ouns.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "choppy copy (macOS)";
+			};
+			name = Debug;
+		};
+		CD96A5F427E527C90016F121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "m2ouns.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "choppy copy (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD96A5B727E527C60016F121 /* Build configuration list for PBXProject "choppy copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD96A5E727E527C90016F121 /* Debug */,
+				CD96A5E827E527C90016F121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD96A5E927E527C90016F121 /* Build configuration list for PBXNativeTarget "choppy copy (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD96A5EA27E527C90016F121 /* Debug */,
+				CD96A5EB27E527C90016F121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD96A5EC27E527C90016F121 /* Build configuration list for PBXNativeTarget "choppy copy (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD96A5ED27E527C90016F121 /* Debug */,
+				CD96A5EE27E527C90016F121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD96A5EF27E527C90016F121 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD96A5F027E527C90016F121 /* Debug */,
+				CD96A5F127E527C90016F121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD96A5F227E527C90016F121 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD96A5F327E527C90016F121 /* Debug */,
+				CD96A5F427E527C90016F121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD96A5B427E527C60016F121 /* Project object */;
+}
